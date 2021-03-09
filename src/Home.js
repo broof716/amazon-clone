@@ -10,7 +10,8 @@ function Home() {
           src="https://images-na.ssl-images-amazon.com/images/G/01/sm/FallGuys_S01_D02/Gateway/V2/GW_Banner_1500x600_EN._CB411384274_.jpg" alt="" 
         />
 
-        <div className="home_row">
+        <div className="home__row">
+          <Product />
           <Product />
         </div>
         <div className="home_row">
