@@ -13,7 +13,7 @@ function Home() {
         <div className="home__row">
           <Product 
             id="12321341" 
-            title='The lean startup' 
+            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback" 
             price={29.99} 
             image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg' rating={5} 
           />
@@ -50,7 +50,14 @@ function Home() {
           />
         </div>
         <div className="home__row">
-          <Product />
+          <Product 
+            id="32543725" 
+            title="SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz, 1000R Curved, QLED, NVIDIA G-SYNC & FreeSync | LC49G95TSSNXZA Model
+            SAMSUNG 49-inch Odyssey G9 Gaming Monitor | QHD, 240hz, 1000R Curved, QLED, NVIDIA G-SYNC & FreeSync | LC49G95TSSNXZA Model" 
+            price={1399.99} 
+            rating={5} 
+            image="https://m.media-amazon.com/images/I/81r8JazRcoL._AC_UY218_.jpg" 
+          />
         </div>
       </div>
     </div>
