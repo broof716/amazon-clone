@@ -17,6 +17,21 @@ app.use(express.json());
 app.get('/', (request, response) => response.status(200).send
 ('hello world'))
 
+app.post('/payments/create', async (request, response) => {
+  const total = request.query.total;
+
+  console.log('Payment Request Received BOOM!!! for this amount', total)
+
+  const paymentIntent = await stripe.paymentIntents.create({
+    amount: total,
+    currency: "usd",
+  });
+
+  response.status(201).send({
+    clientSecret: paymentIntent.client_secret,
+  })
+})
+
 // - Listen command
 exports.api = functions.https.onRequest(app)
 
