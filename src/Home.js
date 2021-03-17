@@ -19,11 +19,10 @@ function Home() {
           />
           <Product 
             id="49538094" 
-            title="RICNUS Laptop Case for Mac-Book Air 13 Inch (Touch ID) 
-            2020/2019/2018 Release ( Model A1932) Leather Hard Shell Cover Compatible Newest Ma-Book Air 13 inch.(Navy Blue Leather)" 
-            price={9.93} 
+            title="Beats Solo3 Wireless On-Ear Headphones - Apple W1 Headphone Chip, Class 1 Bluetooth, 40 Hours Of Listening Time - Black (Latest Model)"
+            price={179.00}
             rating={4} 
-            image="https://m.media-amazon.com/images/I/518Y3plrrmL._AC_SY200_.jpg" 
+            image="https://m.media-amazon.com/images/I/51QxA-98Q+L._AC_UL320_.jpg"
           />
         </div>
         <div className="home__row">
